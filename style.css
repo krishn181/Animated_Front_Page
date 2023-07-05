@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.cursor{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 9px #fff;
+    transition: all linear 0.2s;
+    pointer-events: none;
+}
+.main{width: 100%;
+    height: 100vh;
+background: black;
+}
+.main h2{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    top: 50%;
+    left: -11%;
+    font-size: 9px;
+    font-weight: 600;
+}
+.wrapper{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+     width: 100%;
+     height: 100%;
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+ background-image: url(CupOfCoffeeNearMacBook.jpeg);
+ background-size: contain;
+ background-position: 60%;
+
+}
+.wrapper h1{
+    color: #fff;
+    /* font-style: oblique; */
+    font-size: 450px;
+    font-weight: 900;
+}
+.whiteline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    top: 50%;
+right: 0;
+    transform: translate(0%,-50%);
+    background-color: #fff;
+}
+.blackcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+.blackcard p{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+.linelm{
+    display: flex;
+    align-items: center;
+}
+.linelm .line{
+    width: 200px;
+    height: 3px;
+    margin-left: 20px;
+    background-color: black;
+}
